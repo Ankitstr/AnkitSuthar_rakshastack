@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "name": "Sunrise PG",
+    "price": "₹5000/month",
+    "img": "https://imgs.search.brave.com/hzY1dP97fYgTzJBvVv3HT0n_7F80rxwk3anmQ6IIxNM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhdGljbWIuY29t/L21icGhvdG8vcGcv/Z3JkMi9jcm9wcGVk/X2ltYWdlcy8yMDIy/L1NlcC8xOS9QaG90/b19oNDAwX3c1NDAv/R1IyLTMxODAyNS0x/NDk2NjgxXzQwMF81/NDAuanBlZw",
+    "images": [
+      "https://imgs.search.brave.com/HxNjrl2wQI7A-uDIxbvVaapG78sj2PDPrHTlYH4UBHI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhdGljbWIuY29t/L21icGhvdG8vcGcv/Z3JkMi9jcm9wcGVk/X2ltYWdlcy8yMDI0/L0p1bi8xOS9QaG90/b19oNDAwX3c1NDAv/R1IyLTQzMTY2MS0y/MTY2NDY3XzQwMF81/NDAuanBn",
+      "https://imgs.search.brave.com/HxNjrl2wQI7A-uDIxbvVaapG78sj2PDPrHTlYH4UBHI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhdGljbWIuY29t/L21icGhvdG8vcGcv/Z3JkMi9jcm9wcGVk/X2ltYWdlcy8yMDI0/L0p1bi8xOS9QaG90/b19oNDAwX3c1NDAv/R1IyLTQzMTY2MS0y/MTY2NDY3XzQwMF81/NDAuanBn",
+      "https://imgs.search.brave.com/l73hxLjR1Fy89bsA6zBspQVKvK7PFI_1eQ10zTs5nyc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhdGljbWIuY29t/L21icGhvdG8vcGcv/Z3JkMi9jcm9wcGVk/X2ltYWdlcy8yMDI1/L0p1bi8zMC9QaG90/b19oNDAwX3c1NDAv/R1IyLTQ3NDk3MS0y/NTE0NzY3XzQwMF81/NDAuanBn"
+    ],
+    "location": "Bangalore, India",
+    "gender": "Male",
+    "amenities": [
+      "Wi-Fi",
+      "AC"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Green Villa PG",
+    "price": "₹6000/month",
+    "img": "https://imgs.search.brave.com/qh0eq4tWlPmJPhMZH0NDlWGBRvNQ6aluLZzXbAnZ3Vs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE3/MDU1NzMzNjk1NzIt/ZTMwZDI2MDA2NzA3/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjEuMCZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE1UQjhmR2h2/YzNSbGJITjhaVzU4/TUh4OE1IeDhmREE9",
+    "images": [
+      "https://imgs.search.brave.com/KZKr6LPXZh27feHM5ADJeWVmNGaUisY5Nckch5Yum_Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhdGljbWIuY29t/L21icGhvdG8vcGcv/Z3JkMi9jcm9wcGVk/X2ltYWdlcy8yMDI0/L1NlcC8yNi9QaG90/b19oNDAwX3c1NDAv/R1IyLTM1Njg1NS0y/MjY0NTE1XzQwMF81/NDAuanBlZw",
+      "https://imgs.search.brave.com/tmkAqkdBURGOCll80x_iy03TW7KlQ0Fx4EdS62LHZxM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhdGljbWIuY29t/L21icGhvdG8vcGcv/Z3JkMi9jcm9wcGVk/X2ltYWdlcy8yMDI0/L05vdi8zMC9QaG90/b19oNDAwX3c1NDAv/R1IyLTQ3Mzg2NS0y/MzI0NzA3XzQwMF81/NDAuanBlZw",
+      "https://imgs.search.brave.com/02ZuKApc6tze3J0kjyriRT2L9npzb_v21v907_n-LC0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yb29r/Lmd1bWxldC5pby91/cGxvYWRzL2NlbnRl/ci9jb3Zlcl9waG90/by82NjFlODEwOWNk/ODZkMzAwMDE5MDQ5/MzMvMDQuanBnP2Nv/bXByZXNzPXRydWUm/Zm9ybWF0PWF1dG8m/cXVhbGl0eT03NSZk/cHI9YXV0byZoPWF1/dG8mdz0xMDAlJmFy/PTE"
+    ],
+    "location": "Viman Nagar, Pune",
+    "gender": "Female",
+    "amenities": [
+      "Wi-Fi"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "City Stay PG",
+    "price": "₹5500/month",
+    "img": "https://imgs.search.brave.com/AV_qZEWWez8VEk-QkXuQbc5ih2ceNpPvO1ZO3b71Ac0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ob3N0/ZWxiYXNlcmEuY29t/L2hvc3RlbGJhc2Vy/YWFkbWluL2Fzc2V0/cy9pbWFnZXMvaG9z/dGVsLzE3Mjk2MDE0/OTkuanBlZw",
+    "images": [
+      "https://imgs.search.brave.com/hz4MYjYpYCxnqrHV7izpV1Rwpab6W3f3srvsy9iFHP8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhdGljbWIuY29t/L21icGhvdG8vcGcv/Z3JkMi9jcm9wcGVk/X2ltYWdlcy8yMDI0/L0p1bi8yMS9QaG90/b19oNDAwX3c1NDAv/R1IyLTQ0ODM0OS0y/MTY5MDU1XzQwMF81/NDAucG5n",
+      "https://imgs.search.brave.com/AV_qZEWWez8VEk-QkXuQbc5ih2ceNpPvO1ZO3b71Ac0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ob3N0/ZWxiYXNlcmEuY29t/L2hvc3RlbGJhc2Vy/YWFkbWluL2Fzc2V0/cy9pbWFnZXMvaG9z/dGVsLzE3Mjk2MDE0/OTkuanBlZw",
+      "https://imgs.search.brave.com/z8cPS70_1hoEamWinqVkB6b9xC4NYwubb7Ltwt4EBEM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhdGljbWIuY29t/L21icGhvdG8vcGcv/Z3JkMi9jcm9wcGVk/X2ltYWdlcy8yMDI1/L0p1bC8wNy9QaG90/b19oNDAwX3c1NDAv/R1IyLTQwODY2My0y/NTIxNDc3XzQwMF81/NDAuanBn"
+    ],
+    "location": "Salt Lake, Kolkata",
+    "gender": "Male",
+    "amenities": [
+      "AC"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Comfort Nest PG",
+    "price": "₹5200/month",
+    "img": "https://images.unsplash.com/photo-1596276020587-8044fe049813?q=80&w=639&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "location": "Anna Nagar, Chennai",
+    "images": [
+      "https://media.istockphoto.com/id/1194886439/photo/balcony-and-blue-sky.jpg?s=1024x1024&w=is&k=20&c=RurW-b7wpp3zn4QSLZxv89YvdGgHnH9iB6iyZIFaFnk=",
+      "https://plus.unsplash.com/premium_photo-1717014209391-d6f4934e95ba?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "gender": "Female",
+    "amenities": [
+      "Wi-Fi",
+      "AC"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Elite PG",
+    "price": "₹7000/month",
+    "img": "https://media.istockphoto.com/id/1068447764/photo/modern-residential-apartment-house-building-complex-with-outdoor-facilities.jpg?s=1024x1024&w=is&k=20&c=z6CuSNo7fWpFjYvO02pf4Y2SD9ASos__F8REa3uLm_c=",
+    "location": "Andheri West, Mumbai",
+    "gender": "Male",
+    "amenities": [
+      "Wi-Fi"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Urban Stay PG",
+    "price": "₹5800/month",
+    "img": "https://media.istockphoto.com/id/1170145691/photo/apartment-residential-homes-facade-architecture-with-outdoor-facilities.jpg?s=1024x1024&w=is&k=20&c=SO3Qgu5gQSVzfeTyqUk5EozBQ9zOTJpQVttaNPHGXBM=",
+    "location": "Hitech City, Hyderabad",
+    "gender": "Female",
+    "amenities": [
+      "AC"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Royal PG",
+    "price": "₹6500/month",
+    "img": "https://media.istockphoto.com/id/1170145835/photo/apartment-house-residential-home-architecture-with-parking.jpg?s=1024x1024&w=is&k=20&c=n3ADlPUe-MTqokCry6Wx5Vsylx5MAWCJVgDqlp-yi2g=",
+    "location": "Sector 62, Noida",
+    "gender": "Male",
+    "amenities": [
+      "Wi-Fi",
+      "AC"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Maple PG",
+    "price": "₹5400/month",
+    "img": "https://media.istockphoto.com/id/1195570143/photo/apartment-residential-homes-facade-architecture-and-outdoor-facilities-reflex.jpg?s=1024x1024&w=is&k=20&c=qiWFcWZrr03tljyuDQaHSt4JsQaVnEZw90ZJ9VdWBTo=",
+    "location": "Madhapur, Hyderabad",
+    "gender": "Female",
+    "amenities": [
+      "Wi-Fi"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pearl PG",
+    "price": "₹6000/month",
+    "img": "https://media.istockphoto.com/id/1189805149/photo/picturesque-restaurant-illuminated-by-streetlamp-lanterns-in-the-streets-of-prague-in-the.jpg?s=1024x1024&w=is&k=20&c=QACJjk1eNXKd8P1VHKPZdEDXKExPypQpMf0gQstUKAA=",
+    "location": "Banjara Hills, Hyderabad",
+    "gender": "Male",
+    "amenities": [
+      "AC"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Metro PG",
+    "price": "₹6200/month",
+    "img": "https://media.istockphoto.com/id/955080620/photo/antique-building-view-in-krakow-poland.jpg?s=1024x1024&w=is&k=20&c=_XDLY6qGMZMvMHyoFCOmRg9nukTes7KUdl1gUI01DwY=",
+    "location": "MG Road, Bangalore",
+    "gender": "Female",
+    "amenities": [
+      "Wi-Fi",
+      "AC"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Harmony PG",
+    "price": "₹5100/month",
+    "img": "https://imgs.search.brave.com/Zujw2A0HQK8T6Hcsw5pzjvy0GKE_FMe9XJ2-e85hogA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlYnVkZ2V0c3Rh/eS5jb20vUHJvcGVy/dHlJbWFnZXMvNjk5/L0hvdGVsLUFzaHdp/bi1JZ2F0cHVyaS1S/ZXNvcnQuanBn",
+    "location": "Kukatpally, Hyderabad",
+    "gender": "Male",
+    "amenities": [
+      "Wi-Fi"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Bliss PG",
+    "price": "₹6300/month",
+    "img": "https://media.istockphoto.com/id/2161374640/photo/g%C3%B6rlitz-old-town-in-germany-at-night.jpg?s=1024x1024&w=is&k=20&c=ylsy7g1W3xF9o8Sk8ctMya6d-9UO23H_wrv8n-n7j-Y=",
+    "location": "Jayanagar, Bangalore",
+    "gender": "Female",
+    "amenities": [
+      "AC"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Serene PG",
+    "price": "₹5600/month",
+    "img": "https://images.unsplash.com/photo-1730058719650-3e46e7a70300?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "location": "Navrangpura, Ahmedabad",
+    "gender": "Male",
+    "amenities": [
+      "Wi-Fi",
+      "AC"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Oasis PG",
+    "price": "₹5900/month",
+    "img": "https://images.unsplash.com/photo-1690572707907-24ead6f0af5b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "location": "Alwarpet, Chennai",
+    "gender": "Female",
+    "amenities": [
+      "Wi-Fi"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Tranquil PG",
+    "price": "₹5700/month",
+    "img": "https://media.istockphoto.com/id/1025728388/photo/modern-school-building-on-the-university-campus-surrounded-by-floors-with-a-square-in-the.jpg?s=1024x1024&w=is&k=20&c=qKKxqe8IDDal7JdQoGyiH5PAVeKk95xtnsFRtppLkS4=",
+    "location": "Boring Road, Patna",
+    "gender": "Male",
+    "amenities": [
+      "AC"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Cosy Corner PG",
+    "price": "₹6100/month",
+    "img": "https://media.istockphoto.com/id/1194886439/photo/balcony-and-blue-sky.jpg?s=1024x1024&w=is&k=20&c=RurW-b7wpp3zn4QSLZxv89YvdGgHnH9iB6iyZIFaFnk=",
+    "location": "Indiranagar, Bangalore",
+    "gender": "Female",
+    "amenities": [
+      "Wi-Fi",
+      "AC"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Bright PG",
+    "price": "₹5500/month",
+    "img": "https://images.unsplash.com/photo-1724440813172-8be178b5670e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "location": "Gomti Nagar, Lucknow",
+    "gender": "Male",
+    "amenities": [
+      "Wi-Fi"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Star PG",
+    "price": "₹6800/month",
+    "img": "https://plus.unsplash.com/premium_photo-1730658556676-bcf03b6f38e4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "location": "Dadar, Mumbai",
+    "gender": "Female",
+    "amenities": [
+      "AC"
+    ]
+  }
+]
