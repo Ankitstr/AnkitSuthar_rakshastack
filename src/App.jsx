@@ -10,6 +10,7 @@ import PGDetails from "./pages/PGDetails";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import "./index.css";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   const [pgs, setPgs] = useState([]);
@@ -37,6 +38,8 @@ function App() {
           <Route path="/details/:id" element={<PGDetails pgs={pgs} />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+
         </Routes>
       </main>
       <Footer />
