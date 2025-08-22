@@ -5,18 +5,28 @@ import { Link } from "react-router-dom";
 function Dashboard() {
   const [pgs, setPgs] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     axios
       .get("/pgs.json")
       .then((res) => {
-        setPgs(res.data);
+        if (res.data && Array.isArray(res.data)) {
+          setPgs(res.data); // Corrected to match JSON structure
+        } else {
+          setError("Invalid PG data format.");
+        }
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch(() => {
+        setError("Failed to load PG data");
+        setLoading(false);
+      });
   }, []);
 
+
   if (loading) return <div className="text-center py-10">Loading...</div>;
+  if (error) return <div className="text-center py-10 text-red-600">{error}</div>;
 
   return (
     <div className="flex min-h-screen bg-gray-100">
@@ -38,6 +48,7 @@ function Dashboard() {
           <span className="text-sm">Logged in as Admin</span>
         </div>
       </aside>
+
       {/* Main Content */}
       <main className="flex-1 p-8">
         <div className="flex justify-between items-center mb-6">
@@ -49,6 +60,7 @@ function Dashboard() {
             Add PG
           </Link>
         </div>
+
         <div className="bg-white shadow rounded-lg p-6">
           <table className="w-full text-left">
             <thead>
@@ -62,29 +74,41 @@ function Dashboard() {
               </tr>
             </thead>
             <tbody>
-              {pgs.map((pg) => (
-                <tr key={pg.id} className="border-t">
-                  <td className="py-2 px-4">{pg.name}</td>
-                  <td className="py-2 px-4">{pg.location}</td>
-                  <td className="py-2 px-4">{pg.price}</td>
-                  <td className="py-2 px-4">{pg.gender}</td>
-                  <td className="py-2 px-4">{pg.amenities.join(", ")}</td>
-                  <td className="py-2 px-4 flex gap-2">
-                    <Link
-                      to={`/details/${pg.id}`}
-                      className="bg-blue-500 text-white px-2 py-1 rounded hover:bg-blue-600 text-xs"
-                    >
-                      View
-                    </Link>
-                    <button className="bg-yellow-500 text-white px-2 py-1 rounded hover:bg-yellow-600 text-xs">
-                      Edit
-                    </button>
-                    <button className="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600 text-xs">
-                      Delete
-                    </button>
+              {pgs.length > 0 ? (
+                pgs.map((pg) => (
+                  <tr key={pg.id} className="border-t">
+                    <td className="py-2 px-4">{pg.name}</td>
+                    <td className="py-2 px-4">{pg.location}</td>
+                    <td className="py-2 px-4">{pg.price}</td>
+                    <td className="py-2 px-4">{pg.gender}</td>
+                    <td className="py-2 px-4">
+                      {Array.isArray(pg.amenities)
+                        ? pg.amenities.join(", ")
+                        : "N/A"}
+                    </td>
+                    <td className="py-2 px-4 flex gap-2">
+                      <Link
+                        to={`/details/${pg.id}`}
+                        className="bg-blue-500 text-white px-2 py-1 rounded hover:bg-blue-600 text-xs"
+                      >
+                        View
+                      </Link>
+                      <button className="bg-yellow-500 text-white px-2 py-1 rounded hover:bg-yellow-600 text-xs">
+                        Edit
+                      </button>
+                      <button className="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600 text-xs">
+                        Delete
+                      </button>
+                    </td>
+                  </tr>
+                ))
+              ) : (
+                <tr>
+                  <td colSpan="6" className="text-center py-4 text-gray-500">
+                    No PGs found.
                   </td>
                 </tr>
-              ))}
+              )}
             </tbody>
           </table>
         </div>
